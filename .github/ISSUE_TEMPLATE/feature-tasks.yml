@@ -1,5 +1,5 @@
 name: 機能開発・作業タスク
-title: 'feature:'
+title: 'feature: <title>'
 description: 作業タスクを設定する場合はこちらのテンプレートをご利用ください。
 labels:
   - enhancement
@@ -62,6 +62,10 @@ body:
         - [ ] パスワードリセット用のAPIの作成
         - [ ] メール送信機能の実装
         - [ ] パスワードリセット画面の作成
+      default: |
+        - [ ] 作業項目名1
+        - [ ] 作業項目名2
+        - [ ] 作業項目名3
 
   - type: textarea
     id: notes
