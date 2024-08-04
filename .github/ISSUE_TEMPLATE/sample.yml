@@ -1,8 +1,6 @@
 name: issue forms example
 description: "Example of GitHub's new feature: issue forms"
 title: "タイトル: "
-labels: []
-assignees:
 
 body:
   - type: markdown
