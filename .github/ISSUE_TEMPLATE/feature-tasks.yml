@@ -62,7 +62,6 @@ body:
         - [ ] パスワードリセット用のAPIの作成
         - [ ] メール送信機能の実装
         - [ ] パスワードリセット画面の作成
-      render: markdown
 
   - type: textarea
     id: notes
