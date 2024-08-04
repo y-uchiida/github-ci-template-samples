@@ -3,8 +3,6 @@ title: 'bug:'
 description: 不具合報告issueを設定する場合はこちらのテンプレートをご利用ください。
 labels:
   - bug
-projects:
-  - y-uchiida/3
 
 body:
   - type: markdown
