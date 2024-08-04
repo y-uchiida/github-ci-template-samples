@@ -4,7 +4,7 @@ description: 不具合報告issueを設定する場合はこちらのテンプ�
 labels:
   - bug
 projects:
-  - "y-uchiida/3"
+  - y-uchiida/3
 
 body:
   - type: markdown
