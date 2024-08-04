@@ -7,6 +7,15 @@ issue、チケットへのリンク
 例)
   - #1
   - https://github.com/y-uchiida/github-ci-template-samples/issues/2
+
+PR のマージによってissue を自動でクローズしたい場合は、KEYWORD ISSUE_NUMBER の形式で記載する
+
+例)
+  - Closes #1
+
+詳しくは以下を参照
+https://docs.github.com/ja/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword
+
 -->
 
 ### 対応した内容
