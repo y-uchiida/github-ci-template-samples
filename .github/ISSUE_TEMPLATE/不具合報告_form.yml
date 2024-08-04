@@ -1,6 +1,6 @@
 name: バグ・不具合報告
-title: ''
-about: 不具合報告issueを設定する場合はこちらのテンプレートをご利用ください。
+title: 'bug:'
+description: 不具合報告issueを設定する場合はこちらのテンプレートをご利用ください。
 labels:
   - bug
 projects:
@@ -78,12 +78,12 @@ body:
         不具合が発生した環境を記載してください。
         複数のブラウザで動作検証して事象を確認いただいた場合は、発生を確認したものをすべて選択してください。
       options:
-        - Google Chrome
-        - Microsoft Edge
-        - Firefox
-        - Safari
-        - その他Chromium系ブラウザ
-        - その他
+        - label: "Google Chrome"
+        - label: "Microsoft Edge"
+        - label: "Firefox"
+        - label: "Safari"
+        - label: "その他Chromium系ブラウザ"
+        - label: "その他"
 
   - type: checkboxes
     id: os-environment
@@ -93,13 +93,13 @@ body:
         不具合が発生したOSを記載してください。
         複数のOSで動作検証して事象を確認いただいた場合は、発生を確認したものをすべて選択してください。
       options:
-        - Windows 11
-        - Windows 10
-        - macOS (Catalina, Big Sur, Monterey)
-        - iOS
-        - Android
-        - Linux
-        - その他
+        - label: "Windows 11"
+        - label: "Windows 10"
+        - label: "macOS"
+        - label: "iOS"
+        - label: "Android"
+        - label: "Linux"
+        - label: "その他"
 
   - type: textarea
     id: other-environment
