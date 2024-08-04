@@ -4,7 +4,7 @@ description: 作業タスクを設定する場合はこちらのテンプレー�
 labels:
   - enhancement
 projects:
-  - "y-uchiida/3"
+  - y-uchiida/5
 
 body:
   - type: markdown
