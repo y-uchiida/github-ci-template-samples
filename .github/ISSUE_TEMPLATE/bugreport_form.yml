@@ -1,5 +1,5 @@
 name: バグ・不具合報告
-title: 'bug:'
+title: 'bug: <title>'
 description: 不具合報告issueを設定する場合はこちらのテンプレートをご利用ください。
 labels:
   - bug
